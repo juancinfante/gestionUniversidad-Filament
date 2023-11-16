@@ -1,66 +1,37 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+EL DESAFÍO
+Desarrollar un sistema para administrar la información
+de los estudiantes en una universidad. Dado que la universidad no dispone actualmente
+de un sistema de gestión, se busca crear uno que posibilite registrar
+estudiantes, carreras, materias y usuarios. Este sistema permitirá vincular a los estudiantes
+con una carrera específica y llevar un registro histórico de su progreso académico.
+El sistema deberá permitir:
+1. Realizar ABM (alta,baja y modificación) de :
+1.1. Alumnos con los siguientes datos: nombre , apellido , DNI,
+carrera ,teléfono, número de legajo y estado(activo/inactivo).
+1.2. Usuarios con los siguientes datos: nombre, correo y contraseña.
+1.3. Carreras con los siguientes datos: nombre, duración(años).
+1.4. Materias con los siguientes datos: nombre, carrera a la que pertenece, duración (cuatrimestral o anual), horas de cursado.
+2. Realizar la búsqueda de alumnos por nombre, DNI y número de legajo.
+3. Realizar el filtrado de alumnos según su estado. Estos son: activo o inactivo.
+4. Realizar un ordenamiento por nombre alfabéticamente y número de legajo en orden ascendente o descendente de los alumnos.
+5. Realizar el registro del estado de los alumnos según la materia. Para esto el usuario deberá ingresar el alumno, la materia, el estado (aprobado,desaprobado,regular o libre) y la fecha.
+6. Visualizar a cada alumno y ver sus registros históricos. Además deberá permitir filtrar estos registros por materias y estados.
+7. Descargar un listado de todos los alumnos.
+NOTA: Para poder realizar el punto 7(siete) se recomienda utilizar un plugin. Además, se sugiere investigar sobre "seeders" para crear carreras y materias inicialmente.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![dashboard](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/6f052371-e26e-4fce-b8db-ea6fb1a15e2e)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Alumnos](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/653d3ab9-c890-482d-9fa1-7ed606395e6a)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![Edit Alumnos](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/f3ff86e8-9fd7-4acf-b8a5-48287dde7911)
 
-## Learning Laravel
+![carreras](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/078afe69-04e8-4871-bdd1-8b1801b310bb)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![materias](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/8fc40d1a-b050-42e8-b739-67840853f5c1)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![usuarios](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/22f072c8-b994-4b15-b842-294fc77154ed)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
