@@ -19,7 +19,8 @@ carrera ,teléfono, número de legajo y estado(activo/inactivo).
 7. Descargar un listado de todos los alumnos.
 NOTA: Para poder realizar el punto 7(siete) se recomienda utilizar un plugin. Además, se sugiere investigar sobre "seeders" para crear carreras y materias inicialmente.
 
-## Installation
+## Instalacion
+
 #### 1. Clonar el proyecto
 ```bash
 git clone https://github.com/juancinfante/gestionUniversidad-Filament.git
