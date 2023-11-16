@@ -20,9 +20,18 @@ carrera ,teléfono, número de legajo y estado(activo/inactivo).
 NOTA: Para poder realizar el punto 7(siete) se recomienda utilizar un plugin. Además, se sugiere investigar sobre "seeders" para crear carreras y materias inicialmente.
 
 
+
 ![dashboard](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/6f052371-e26e-4fce-b8db-ea6fb1a15e2e)
 
 ![Alumnos](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/653d3ab9-c890-482d-9fa1-7ed606395e6a)
 
 ![Edit Alumnos](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/f3ff86e8-9fd7-4acf-b8a5-48287dde7911)
+
+![carreras](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/078afe69-04e8-4871-bdd1-8b1801b310bb)
+
+![materias](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/8fc40d1a-b050-42e8-b739-67840853f5c1)
+
+![usuarios](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/22f072c8-b994-4b15-b842-294fc77154ed)
+
+
 
