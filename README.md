@@ -19,7 +19,22 @@ carrera ,teléfono, número de legajo y estado(activo/inactivo).
 7. Descargar un listado de todos los alumnos.
 NOTA: Para poder realizar el punto 7(siete) se recomienda utilizar un plugin. Además, se sugiere investigar sobre "seeders" para crear carreras y materias inicialmente.
 
+## Instalacion
 
+#### 1. Clonar el proyecto
+```bash
+git clone https://github.com/juancinfante/gestionUniversidad-Filament.git
+```
+
+#### 2. Ejecutar el comando: `composer install`
+
+#### 3. Copia el archivo .env.example y pegarlo como .env. Puedes hacerlo ejecutando el comando `cp .env.example .env` en sistemas Unix o `copy .env.example` .env en sistemas Windows.
+
+#### 4. Generar la Clave de Aplicación: `php artisan key:generate`
+
+#### 5. Ejecutar el comando: `php artisan migrate` para aplicar las migraciones y crear las tablas necesarias en la base de datos, luego `php artisan migrate --seed` para crear las carreras y materias precargadas inicialmente.
+
+#### 6. Ejecutar el comando: `php artisan serve` para iniciar el servidor
 
 ![dashboard](https://github.com/juancinfante/gestionUniversidad-Filament/assets/48840855/6f052371-e26e-4fce-b8db-ea6fb1a15e2e)
 
