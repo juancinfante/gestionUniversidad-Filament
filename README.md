@@ -32,7 +32,7 @@ git clone https://github.com/juancinfante/gestionUniversidad-Filament.git
 
 #### 4. Generar la Clave de Aplicación: `php artisan key:generate`
 
-#### 5. Ejecutar el comando: `php artisan migrate` para aplicar las migraciones y crear las tablas necesarias en la base de datos
+#### 5. Ejecutar el comando: `php artisan migrate` para aplicar las migraciones y crear las tablas necesarias en la base de datos, luego `php artisan migrate --seed` para crear las carreras y materias precargadas inicialmente.
 
 #### 6. Ejecutar el comando: `php artisan serve` para iniciar el servidor
 
