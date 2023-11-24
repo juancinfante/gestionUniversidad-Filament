@@ -28,7 +28,7 @@ git clone https://github.com/juancinfante/gestionUniversidad-Filament.git
 
 #### 2. Ejecutar el comando: `composer install`
 
-#### 3. Copia el archivo .env.example y pegarlo como .env. Puedes hacerlo ejecutando el comando `cp .env.example .env` en sistemas Unix o `copy .env.example` .env en sistemas Windows.
+#### 3. Copia el archivo .env.example y pegarlo como .env. Puedes hacerlo ejecutando el comando `cp .env.example .env` en sistemas Unix o `copy .env.example .env` en sistemas Windows.
 
 #### 4. Generar la Clave de Aplicación: `php artisan key:generate`
 
